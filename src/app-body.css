@@ -1,0 +1,32 @@
+.App-body {
+  background-color: #ffffff;
+  margin-top: 3%;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  place-items: center;
+  font-size: calc(5vmin);
+  color: rgb(0, 0, 0);
+  display: grid;
+}
+
+.View-Plants, .Discover-Plants, .Reports, .Go-Back {
+  background-color: #ffffff;
+  border: 2px solid #00d5ff;
+  border-radius: 4px;
+  height: 5vh;
+  width: 35vw;
+}
+
+.View-Plants:active, .Discover-Plants:active, .Reports:active {
+  box-shadow: 0 3px #cceffb;
+}
+
+.View-Plant-View {
+  background-color: #09e2c1;
+  border: 2px solid #00d5ff;
+  border-radius: 4px;
+  height: 5vh;
+  width: 35vw;
+}

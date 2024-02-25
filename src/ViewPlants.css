@@ -1,0 +1,32 @@
+.plant-grid-view {
+  display: grid;
+  flex-direction: column;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 15vw;
+  margin: 5vh;
+}
+
+.plant-cell {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  place-items: center;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid #00d5ff;
+}
+
+.plant-label, .plant-id {
+  font-size: 2.5vmin;
+  color: rgb(0, 0, 0);
+  margin: 0.5vh;
+  margin-top: 1vh;
+  text-align: center;
+  background-color: rgb(197, 244, 241);
+}
+
+.view-plant-body {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}

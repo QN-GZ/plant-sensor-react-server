@@ -6,8 +6,8 @@ function ViewPlants({ plantsData }) {
     <div className="plant-grid-view">
       {devices.map((device, index) => (
         <div key={index} className="plant-cell">
-          {device.dryness_pct}%
-          <label className='plant-id'>{device.id} dryness</label>
+          {100 - device.dryness_pct}%
+          <label className='plant-id'>{device.id} soil moisture</label>
         </div>
       ))}
     </div>

@@ -32,7 +32,7 @@ const AppBody = () => {
     state.view = className;
     if (BUTTON_CLASSES.VIEW_PLANTS === className) {
       setView(VIEW.LOADING);
-      const url = 'http://localhost:10032/plants';
+      const url = 'http://192.168.86.186:10032/plants'; // TODO need to get this from the environment
       const body = {
         method: 'GET',
         headers: {
